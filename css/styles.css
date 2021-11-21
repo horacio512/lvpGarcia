@@ -1,0 +1,197 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Slab"; }
+
+/* FONDO DE LA PARTE PRINCIPAL DE LA PAGINA */
+main {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); }
+
+/* ESTILO DEL TITULO */
+h1 {
+  font-family: "Gluten","Cursive";
+  font-weight: 900;
+  font-size: calc(1em + 3vw);
+  line-height: 1em; }
+
+/* ESTILO DEL LOGO EN EL MENÚ */
+.logo {
+  width: 40%; }
+
+/* H3 EN EL INICIO  */
+.bandHistory {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+/* PARRAFO EN EL INICIO */
+.parrafo {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+/* SUBTITULOS EN DISCOGRAFIA */
+.albumsEstudio {
+  text-align: center;
+  color: teal; }
+
+/* FONDO DE COLOR NEGRO */
+.bgBlack {
+  background-color: black; }
+
+/* SUBTITULO EN GALERIA */
+.galerySub {
+  font-size: 2rem;
+  font-weight: 700; }
+
+/* FLEX CON EL RESTO DEL STAFF */
+.flexStaff {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-weight: 500;
+  align-items: center; }
+
+/* ZOOM AL RESTO DEL STAFF */
+.flexStaff p:hover {
+  transform: scale(1.6); }
+
+/* BORDE Y ESTILO DE LOS P */
+.staffBorder {
+  margin-bottom: 1.5rem;
+  width: 50%;
+  border-bottom-style: ridge;
+  border-bottom-color: firebrick;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  font-size: 1.5rem;
+  text-align: center; }
+
+/* FLEX EN EL INICIO  */
+.flexInicio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; }
+
+.flexInicio nav {
+  border-style: hidden;
+  border-radius: 30%;
+  border-color: transparent; }
+
+/* ESTILO DEL FOOTER */
+footer {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem; }
+
+footer i {
+  font-size: 3rem; }
+
+/* FONDO DE COLOR DE INSTAGRAM PARA EL FOOTER */
+.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+/* ANIMACION DE CARDS */
+.anime:hover {
+  animation: shakeY;
+  animation-duration: 1.5s; }
+
+/* ESTILO DE LAS CARDS EN DISCOGRAFIA */
+.discografiaStyle {
+  background: transparent;
+  border: 0ch;
+  text-align: center;
+  font-weight: 700; }
+
+/* BORDE DE LAS IMAGENES EN DISCOGRAFIA */
+.imgDisco {
+  border-style: ridge;
+  border-color: transparent;
+  border-radius: 2rem; }
+
+/* ACORDION CON DATOS DE LOS PRÓXIMOS SHOWS */
+.acordTheme {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  font-size: 1.4rem; }
+
+.showsDate {
+  border-style: groove;
+  border-radius: 1rem;
+  border-color: red;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-align: center; }
+
+.showsDateOK {
+  border-color: greenyellow; }
+
+.showsBorder {
+  border-style: groove;
+  border-radius: 0.3rem;
+  border-color: brown; }
+
+/* SUBTITULO QUE NO ESTA DENTRO DEL ACORDION PERO LE REPRESENTA */
+.proxShows {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+  text-align: center; }
+
+.proxShows h2 {
+  font-size: 3rem; }
+
+.btnFont {
+  font-size: 1.7rem; }
+
+/* FIN DEL ACORDION */
+/* SUBTITULO EN CONTACTO */
+.contactSub {
+  background-color: darkmagenta;
+  border-radius: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: whitesmoke;
+  box-shadow: 10px 10px 5px 0px rgba(197, 46, 156, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(197, 46, 156, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(197, 46, 156, 0.75);
+  text-transform: capitalize; }
+
+/* BOTONES DE CONTACTO */
+.contactBtns {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background-color: blueviolet;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 10px 10px 5px 0px rgba(138, 43, 226, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(138, 43, 226, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(138, 43, 226, 0.75); }
+
+.contactBtns:hover {
+  transform: rotate(15deg);
+  box-shadow: 10px 10px 5px 0px rgba(130, 0, 255, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(130, 0, 255, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(130, 0, 255, 0.75); }
+
+/* FONDO EN FORMULARIO DE CONTACTO */
+.bgContact {
+  background-image: url(../images/bg.jpg);
+  background-size: 100%;
+  background-position: center; }
+
+/* BORDE DEL FORM */
+.form {
+  border-style: ridge;
+  border-color: transparent;
+  border-radius: 2rem; }
