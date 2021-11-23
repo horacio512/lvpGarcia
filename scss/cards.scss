@@ -1,0 +1,23 @@
+
+/* ANIMACION DE CARDS */
+
+.anime:hover{ 
+    animation: shakeY;
+    animation-duration: 1.5s;
+}
+
+/* ESTILO DE LAS CARDS EN DISCOGRAFIA */
+.discografiaStyle{     
+    background: transparent;
+    border: 0ch;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* BORDE DE LAS IMAGENES EN DISCOGRAFIA */
+.imgDisco{
+    border-style:ridge;
+    border-color:transparent;
+    border-radius: 2rem;
+}
+

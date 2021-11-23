@@ -1,0 +1,41 @@
+/* FLEX CON EL RESTO DEL STAFF */
+.flexStaff{  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-weight: 500;
+    align-items: center;
+}
+
+/* ZOOM AL RESTO DEL STAFF */
+.flexStaff p:hover{ 
+    transform: scale(1.6);  
+}
+
+/* BORDE Y ESTILO DE LOS P */
+.staffBorder{
+    margin-bottom: 1.5rem;
+    width: 50%;
+    border-bottom-style:ridge;
+    border-bottom-color: firebrick;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* FLEX EN EL INICIO  */
+
+.flexInicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.flexInicio nav{
+    border-style:hidden;
+    border-radius: 30%;
+    border-color: transparent;
+}
