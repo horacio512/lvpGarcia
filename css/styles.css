@@ -8,43 +8,15 @@
 main {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); }
 
-/* ESTILO DEL TITULO */
-h1 {
-  font-family: "Gluten","Cursive";
-  font-weight: 900;
-  font-size: calc(1em + 3vw);
-  line-height: 1em; }
-
-/* ESTILO DEL LOGO EN EL MENÚ */
-.logo {
-  width: 40%; }
-
-/* H3 EN EL INICIO  */
-.bandHistory {
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
-
 /* PARRAFO EN EL INICIO */
 .parrafo {
   font-size: 1.8rem;
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
-/* SUBTITULOS EN DISCOGRAFIA */
-.albumsEstudio {
-  text-align: center;
-  color: teal; }
-
 /* FONDO DE COLOR NEGRO */
 .bgBlack {
   background-color: black; }
-
-/* SUBTITULO EN GALERIA */
-.galerySub {
-  font-size: 2rem;
-  font-weight: 700; }
 
 /* FLEX CON EL RESTO DEL STAFF */
 .flexStaff {
@@ -52,11 +24,10 @@ h1 {
   flex-wrap: wrap;
   flex-direction: column;
   font-weight: 500;
-  align-items: center; }
-
-/* ZOOM AL RESTO DEL STAFF */
-.flexStaff p:hover {
-  transform: scale(1.6); }
+  align-items: center;
+  /* ZOOM AL RESTO DEL STAFF */ }
+  .flexStaff p:hover {
+    transform: scale(1.6); }
 
 /* BORDE Y ESTILO DE LOS P */
 .staffBorder {
@@ -76,11 +47,11 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center; }
-
-.flexInicio nav {
-  border-style: hidden;
-  border-radius: 30%;
-  border-color: transparent; }
+  .flexInicio nav {
+    border-style: hidden;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-color: transparent; }
 
 /* ESTILO DEL FOOTER */
 footer {
@@ -88,9 +59,9 @@ footer {
   text-align: center;
   font-size: 2rem;
   padding: 3rem; }
-
-footer i {
-  font-size: 3rem; }
+  footer i {
+    font-size: 3rem;
+    margin-right: 2rem; }
 
 /* FONDO DE COLOR DE INSTAGRAM PARA EL FOOTER */
 .instagram {
@@ -123,30 +94,18 @@ footer i {
   font-size: 1.4rem; }
 
 .showsDate {
-  border-style: groove;
-  border-radius: 1rem;
-  border-color: red;
-  margin-bottom: 1rem;
+  color: red;
+  margin-bottom: 2rem;
   font-size: 1.2rem;
   text-align: center; }
 
 .showsDateOK {
-  border-color: greenyellow; }
+  color: green; }
 
 .showsBorder {
   border-style: groove;
   border-radius: 0.3rem;
   border-color: brown; }
-
-/* SUBTITULO QUE NO ESTA DENTRO DEL ACORDION PERO LE REPRESENTA */
-.proxShows {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  color: black;
-  text-align: center; }
-
-.proxShows h2 {
-  font-size: 3rem; }
 
 .btnFont {
   font-size: 1.7rem; }
@@ -195,3 +154,44 @@ footer i {
   border-style: ridge;
   border-color: transparent;
   border-radius: 2rem; }
+
+/* ESTILO DEL TITULO */
+h1 {
+  font-family: "Gluten","Cursive";
+  font-weight: 900;
+  font-size: calc(1em + 3vw);
+  line-height: 1em; }
+
+/* SUBTITULO EN GALERIA */
+.galerySub {
+  text-align: center;
+  color: teal;
+  font-size: 2.7rem;
+  margin-top: 2rem; }
+
+/* SUBTITULOS EN DISCOGRAFIA */
+.albumsEstudio {
+  text-align: center;
+  color: teal;
+  font-size: 2.7rem;
+  padding: 2rem; }
+
+/* ESTILO DEL LOGO EN EL MENÚ */
+.logo {
+  width: 40%; }
+
+/* H3 EN EL INICIO  */
+.bandHistory {
+  text-align: center;
+  color: teal;
+  font-size: 2.7rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+/* SUBTITULO QUE NO ESTA DENTRO DEL ACORDION PERO LE REPRESENTA */
+.proxShows {
+  text-align: center;
+  color: teal;
+  font-size: 2.7rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem; }

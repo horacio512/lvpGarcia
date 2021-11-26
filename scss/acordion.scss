@@ -1,5 +1,3 @@
-
-
 /* ACORDION CON DATOS DE LOS PRÓXIMOS SHOWS */
 
 .acordTheme{
@@ -9,34 +7,20 @@
 
 
 .showsDate{
-    border-style:groove;
-    border-radius: 1rem;
-    border-color: red;
-    margin-bottom: 1rem;
+    color: red;
+    margin-bottom: 2rem;
     font-size: 1.2rem;
     text-align: center;
 }
 
 .showsDateOK{
-   border-color:greenyellow;
+   color:green;
 }
 
 .showsBorder{
     border-style: groove;
     border-radius: 0.3rem;
     border-color:brown;
-}
-
-/* SUBTITULO QUE NO ESTA DENTRO DEL ACORDION PERO LE REPRESENTA */
-.proxShows{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color:black;
-    text-align: center;
-}
-
-.proxShows h2{
-    font-size: 3rem;
 }
 
 .btnFont{

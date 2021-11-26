@@ -11,29 +11,6 @@ main{
     
 }
 
- /* ESTILO DEL TITULO */
- h1{    
-    font-family: "Gluten","Cursive";
-    font-weight: 900;
-    font-size: calc(1em + 3vw);
-    line-height: 1em; 
-}
-
-/* ESTILO DEL LOGO EN EL MENÚ */
-
-.logo{
-    width: 40%;
-}
-
-/* H3 EN EL INICIO  */
-
-.bandHistory{
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
 /* PARRAFO EN EL INICIO */
 .parrafo{
     font-size: 1.8rem;
@@ -42,19 +19,9 @@ main{
 }
 
 
-/* SUBTITULOS EN DISCOGRAFIA */
-.albumsEstudio{ 
-    text-align: center;
-    color:teal;
-}
-
 /* FONDO DE COLOR NEGRO */
 .bgBlack{
     background-color: black;
 }
 
-/* SUBTITULO EN GALERIA */
-.galerySub{
-    font-size: 2rem;
-    font-weight: 700;
-}
+$map: (rojo: red);

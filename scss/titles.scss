@@ -1,0 +1,49 @@
+@mixin subtitles {
+    text-align: center;
+    color:teal;
+    font-size: 2.7rem;
+}
+
+/* ESTILO DEL TITULO */
+h1{    
+    font-family: "Gluten","Cursive";
+    font-weight: 900;
+    font-size: calc(1em + 3vw);
+    line-height: 1em; 
+}
+
+
+/* SUBTITULO EN GALERIA */
+.galerySub{
+   @include subtitles;
+   margin-top: 2rem;
+
+}
+
+/* SUBTITULOS EN DISCOGRAFIA */
+.albumsEstudio{ 
+    @include subtitles;
+    padding: 2rem;
+}
+
+/* ESTILO DEL LOGO EN EL MENÚ */
+
+.logo{
+    width: 40%;
+}
+
+/* H3 EN EL INICIO  */
+
+.bandHistory{
+    @include subtitles;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* SUBTITULO QUE NO ESTA DENTRO DEL ACORDION PERO LE REPRESENTA */
+.proxShows{
+    @include subtitles;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+

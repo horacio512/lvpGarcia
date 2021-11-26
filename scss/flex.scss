@@ -5,12 +5,11 @@
     flex-direction: column;
     font-weight: 500;
     align-items: center;
-}
 
 /* ZOOM AL RESTO DEL STAFF */
-.flexStaff p:hover{ 
-    transform: scale(1.6);  
-}
+p:hover{transform: scale(1.6);}
+
+        }
 
 /* BORDE Y ESTILO DE LOS P */
 .staffBorder{
@@ -32,10 +31,13 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+
+    nav{
+        border-style:hidden;
+        border-bottom-left-radius: 25%;
+        border-bottom-right-radius: 25%;
+        border-color: transparent;
+    }
 }
 
-.flexInicio nav{
-    border-style:hidden;
-    border-radius: 30%;
-    border-color: transparent;
-}
+
