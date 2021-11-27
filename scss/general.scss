@@ -7,13 +7,16 @@
  /* FONDO DE LA PARTE PRINCIPAL DE LA PAGINA */
    
 main{
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-    
+    background-image: url(../images/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+ 
 }
 
 /* PARRAFO EN EL INICIO */
 .parrafo{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -24,4 +27,7 @@ main{
     background-color: black;
 }
 
-$map: (rojo: red);
+.marginInicio{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

@@ -6,17 +6,24 @@
 
 /* FONDO DE LA PARTE PRINCIPAL DE LA PAGINA */
 main {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); }
+  background-image: url(../images/fondo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
 
 /* PARRAFO EN EL INICIO */
 .parrafo {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
 /* FONDO DE COLOR NEGRO */
 .bgBlack {
   background-color: black; }
+
+.marginInicio {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 /* FLEX CON EL RESTO DEL STAFF */
 .flexStaff {
@@ -145,9 +152,7 @@ footer {
 
 /* FONDO EN FORMULARIO DE CONTACTO */
 .bgContact {
-  background-image: url(../images/bg.jpg);
-  background-size: 100%;
-  background-position: center; }
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); }
 
 /* BORDE DEL FORM */
 .form {
