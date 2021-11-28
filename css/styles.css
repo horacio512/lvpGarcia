@@ -70,6 +70,14 @@ footer {
     font-size: 3rem;
     margin-right: 2rem; }
 
+.corpoInc {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+  font-size: 0.8rem; }
+  .corpoIncemail {
+    text-align: end; }
+
 /* FONDO DE COLOR DE INSTAGRAM PARA EL FOOTER */
 .instagram {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);

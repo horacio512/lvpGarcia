@@ -8,8 +8,18 @@ footer {
     i{
         font-size: 3rem;
         margin-right: 2rem;
+    } 
 }
 
+.corpoInc{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+    font-size: 0.8rem;
+
+    &email{
+        text-align:end;
+    }
 }
 
 /* FONDO DE COLOR DE INSTAGRAM PARA EL FOOTER */
