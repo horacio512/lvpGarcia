@@ -1,20 +1,26 @@
 /* FLEX CON EL RESTO DEL STAFF */
 .flexStaff{  
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-flow: row wrap ;
+    justify-content:space-between;
+    row-gap: 1.6rem;
     font-weight: 500;
     align-items: center;
+    margin-top:2rem; 
+   
+    p{
+        font-size: 1.5rem;
+    }
 
 /* ZOOM AL RESTO DEL STAFF */
-p:hover{transform: scale(1.6);}
+    p:hover{transform: scale(1.3);}
 
         }
 
 /* BORDE Y ESTILO DE LOS P */
 .staffBorder{
     margin-bottom: 1.5rem;
-    width: 50%;
+    width: 30%;
     border-bottom-style:ridge;
     border-bottom-color: firebrick;
     border-bottom-left-radius: 25%;

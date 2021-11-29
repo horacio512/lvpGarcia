@@ -13,12 +13,12 @@ footer {
 
 .corpoInc{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     text-align: left;
     font-size: 0.8rem;
 
     &email{
-        text-align:end;
+        text-align:start;
     }
 }
 

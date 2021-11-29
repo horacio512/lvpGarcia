@@ -1,10 +1,42 @@
+@mixin cardsFont {
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: center;   
+}
+
+
+/* ESTILO DE LA CAJA CONTENEDORA DE CARDS */
+
+.discoCards {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    justify-content: space-around;
+}
 
 /* ANIMACION DE CARDS */
 
+.anime{
+    @include cardsFont;
+
+    &Integ{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    flex-basis: auto;
+    margin-top: 2rem;
+    font-weight: 500;
+    p {
+        margin-top:  0.5rem;
+       }
+          }
+
+      }
+
 .anime:hover{ 
+
     animation: shakeY;
     animation-duration: 1.5s;
-}
+            }
 
 /* ESTILO DE LAS CARDS EN DISCOGRAFIA */
 .discografiaStyle{     
@@ -12,6 +44,12 @@
     border: 0ch;
     text-align: center;
     font-weight: 700;
+    margin-bottom: 5rem;
+
+    a {
+        background-color:#1DB954;
+        color: white;
+    }
 }
 
 /* BORDE DE LAS IMAGENES EN DISCOGRAFIA */
@@ -21,3 +59,11 @@
     border-radius: 2rem;
 }
 
+
+/* ESTILO DE LAS FOTOS DE LOS INTEGRANTES */
+.integPics{
+    align-self: center;
+    margin-top: auto;
+    height: 20vh;
+    width: 30vw;
+           }

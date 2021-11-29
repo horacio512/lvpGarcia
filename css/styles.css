@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600&family=Roboto+Slab:wght@100;200;400;500;600;700;800&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -28,18 +29,22 @@ main {
 /* FLEX CON EL RESTO DEL STAFF */
 .flexStaff {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  row-gap: 1.6rem;
   font-weight: 500;
   align-items: center;
+  margin-top: 2rem;
   /* ZOOM AL RESTO DEL STAFF */ }
+  .flexStaff p {
+    font-size: 1.5rem; }
   .flexStaff p:hover {
-    transform: scale(1.6); }
+    transform: scale(1.3); }
 
 /* BORDE Y ESTILO DE LOS P */
 .staffBorder {
   margin-bottom: 1.5rem;
-  width: 50%;
+  width: 30%;
   border-bottom-style: ridge;
   border-bottom-color: firebrick;
   border-bottom-left-radius: 25%;
@@ -72,11 +77,11 @@ footer {
 
 .corpoInc {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   text-align: left;
   font-size: 0.8rem; }
   .corpoIncemail {
-    text-align: end; }
+    text-align: start; }
 
 /* FONDO DE COLOR DE INSTAGRAM PARA EL FOOTER */
 .instagram {
@@ -85,7 +90,27 @@ footer {
   background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+/* ESTILO DE LA CAJA CONTENEDORA DE CARDS */
+.discoCards {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  justify-content: space-around; }
+
 /* ANIMACION DE CARDS */
+.anime {
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-align: center; }
+  .animeInteg {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    flex-basis: auto;
+    margin-top: 2rem;
+    font-weight: 500; }
+    .animeInteg p {
+      margin-top: 0.5rem; }
+
 .anime:hover {
   animation: shakeY;
   animation-duration: 1.5s; }
@@ -95,13 +120,24 @@ footer {
   background: transparent;
   border: 0ch;
   text-align: center;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-bottom: 5rem; }
+  .discografiaStyle a {
+    background-color: #1DB954;
+    color: white; }
 
 /* BORDE DE LAS IMAGENES EN DISCOGRAFIA */
 .imgDisco {
   border-style: ridge;
   border-color: transparent;
   border-radius: 2rem; }
+
+/* ESTILO DE LAS FOTOS DE LOS INTEGRANTES */
+.integPics {
+  align-self: center;
+  margin-top: auto;
+  height: 20vh;
+  width: 30vw; }
 
 /* ACORDION CON DATOS DE LOS PRÓXIMOS SHOWS */
 .acordTheme {
@@ -187,7 +223,8 @@ h1 {
   text-align: center;
   color: teal;
   font-size: 2.7rem;
-  padding: 2rem; }
+  padding-top: 2rem;
+  padding-bottom: 7rem; }
 
 /* ESTILO DEL LOGO EN EL MENÚ */
 .logo {

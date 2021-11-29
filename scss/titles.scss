@@ -23,7 +23,8 @@ h1{
 /* SUBTITULOS EN DISCOGRAFIA */
 .albumsEstudio{ 
     @include subtitles;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 7rem;
 }
 
 /* ESTILO DEL LOGO EN EL MENÚ */
