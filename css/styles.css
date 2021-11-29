@@ -26,6 +26,16 @@ main {
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
+/* ESTILOS DE CAROUSEL EN GALERIA */
+.galeryPics {
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+
+.clipsM iframe {
+  margin-bottom: 3.4rem;
+  border-style: hidden;
+  border-radius: 1.5%; }
+
 /* FLEX CON EL RESTO DEL STAFF */
 .flexStaff {
   display: flex;
@@ -216,7 +226,9 @@ h1 {
   text-align: center;
   color: teal;
   font-size: 2.7rem;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  text-transform: uppercase; }
 
 /* SUBTITULOS EN DISCOGRAFIA */
 .albumsEstudio {
