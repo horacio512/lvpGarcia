@@ -17,7 +17,6 @@
 
 .anime{
     @include cardsFont;
-
     &Integ{
     display: flex;
     flex-direction: column;
@@ -39,10 +38,11 @@
             }
 
 /* ESTILO DE LAS CARDS EN DISCOGRAFIA */
-.discografiaStyle{     
+.discografiaStyle{    
     background: transparent;
     border: 0ch;
     text-align: center;
+    align-items: center;
     font-weight: 700;
     margin-bottom: 5rem;
 
@@ -64,6 +64,8 @@
 .integPics{
     align-self: center;
     margin-top: auto;
-    height: 20vh;
-    width: 30vw;
+    float: left;
+    width:  15rem;
+    height: 14rem;
+    object-fit: cover;
            }

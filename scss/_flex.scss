@@ -1,7 +1,7 @@
 /* FLEX CON EL RESTO DEL STAFF */
 .flexStaff{  
     display: flex;
-    flex-flow: row wrap ;
+    flex-flow: column wrap ;
     justify-content:space-between;
     row-gap: 1.6rem;
     font-weight: 500;

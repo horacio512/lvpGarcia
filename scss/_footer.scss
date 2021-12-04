@@ -1,24 +1,28 @@
 /* ESTILO DEL FOOTER */
 footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     color: white;
+    justify-content:space-evenly;
     text-align: center;
     font-size: 2rem;
-    padding: 3rem;
+    padding: 1.4rem;
 
     i{
-        font-size: 3rem;
+ 
+        font-size: 2.2rem;
         margin-right: 2rem;
     } 
 }
 
 .corpoInc{
-    display: flex;
-    flex-flow: column wrap;
+    margin-top: auto;
     text-align: left;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 
     &email{
-        text-align:start;
+        text-align:left;
     }
 }
 

@@ -36,10 +36,15 @@ main {
   border-style: hidden;
   border-radius: 1.5%; }
 
+.clipsM div {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 /* FLEX CON EL RESTO DEL STAFF */
 .flexStaff {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-between;
   row-gap: 1.6rem;
   font-weight: 500;
@@ -77,21 +82,24 @@ main {
 
 /* ESTILO DEL FOOTER */
 footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   color: white;
+  justify-content: space-evenly;
   text-align: center;
   font-size: 2rem;
-  padding: 3rem; }
+  padding: 1.4rem; }
   footer i {
-    font-size: 3rem;
+    font-size: 2.2rem;
     margin-right: 2rem; }
 
 .corpoInc {
-  display: flex;
-  flex-flow: column wrap;
+  margin-top: auto;
   text-align: left;
-  font-size: 0.8rem; }
+  font-size: 0.9rem; }
   .corpoIncemail {
-    text-align: start; }
+    text-align: left; }
 
 /* FONDO DE COLOR DE INSTAGRAM PARA EL FOOTER */
 .instagram {
@@ -130,6 +138,7 @@ footer {
   background: transparent;
   border: 0ch;
   text-align: center;
+  align-items: center;
   font-weight: 700;
   margin-bottom: 5rem; }
   .discografiaStyle a {
@@ -146,8 +155,10 @@ footer {
 .integPics {
   align-self: center;
   margin-top: auto;
-  height: 20vh;
-  width: 30vw; }
+  float: left;
+  width: 15rem;
+  height: 14rem;
+  object-fit: cover; }
 
 /* ACORDION CON DATOS DE LOS PRÓXIMOS SHOWS */
 .acordTheme {
