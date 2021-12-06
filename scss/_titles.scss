@@ -18,7 +18,7 @@ h1{
    @include subtitles;
    margin-top: 2rem;
    margin-bottom: 4rem;
-   text-transform: uppercase;
+   text-transform:capitalize;
 
 }
 
@@ -26,7 +26,7 @@ h1{
 .albumsEstudio{ 
     @include subtitles;
     padding-top: 2rem;
-    padding-bottom: 7rem;
+    padding-bottom: 3rem;
 }
 
 /* ESTILO DEL LOGO EN EL MENÚ */

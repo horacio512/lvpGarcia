@@ -14,7 +14,7 @@ h1 {
   font-size: 2.7rem;
   margin-top: 2rem;
   margin-bottom: 4rem;
-  text-transform: uppercase; }
+  text-transform: capitalize; }
 
 /* SUBTITULOS EN DISCOGRAFIA */
 .albumsEstudio {
@@ -22,7 +22,7 @@ h1 {
   color: teal;
   font-size: 2.7rem;
   padding-top: 2rem;
-  padding-bottom: 7rem; }
+  padding-bottom: 3rem; }
 
 /* ESTILO DEL LOGO EN EL MENÚ */
 .logo {
@@ -58,7 +58,7 @@ main {
 
 /* PARRAFO EN EL INICIO */
 .parrafo {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
@@ -105,9 +105,9 @@ main {
   margin-bottom: 1.5rem;
   width: 30%;
   border-bottom-style: ridge;
-  border-bottom-color: firebrick;
-  border-bottom-left-radius: 25%;
-  border-bottom-right-radius: 25%;
+  border-bottom-color: #462525;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
   font-size: 1.5rem;
   text-align: center; }
 
