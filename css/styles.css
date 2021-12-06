@@ -1,5 +1,49 @@
 @charset "UTF-8";
+/* ESTILO DEL TITULO */
 @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600&family=Roboto+Slab:wght@100;200;400;500;600;700;800&display=swap");
+h1 {
+  font-family: "Gluten","Cursive";
+  font-weight: 900;
+  font-size: calc(1em + 3vw);
+  line-height: 1em; }
+
+/* SUBTITULO EN GALERIA */
+.galerySub {
+  text-align: center;
+  color: teal;
+  font-size: 2.7rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  text-transform: uppercase; }
+
+/* SUBTITULOS EN DISCOGRAFIA */
+.albumsEstudio {
+  text-align: center;
+  color: teal;
+  font-size: 2.7rem;
+  padding-top: 2rem;
+  padding-bottom: 7rem; }
+
+/* ESTILO DEL LOGO EN EL MENÚ */
+.logo {
+  width: 40%; }
+
+/* H3 EN EL INICIO  */
+.bandHistory {
+  text-align: center;
+  color: teal;
+  font-size: 2.7rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+/* SUBTITULO QUE NO ESTA DENTRO DEL ACORDION PERO LE REPRESENTA */
+.proxShows {
+  text-align: center;
+  color: teal;
+  font-size: 2.7rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem; }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -185,86 +229,45 @@ footer {
 /* FIN DEL ACORDION */
 /* SUBTITULO EN CONTACTO */
 .contactSub {
-  background-color: darkmagenta;
-  border-radius: 1rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
   text-align: center;
-  margin-bottom: 3rem;
-  color: whitesmoke;
-  box-shadow: 10px 10px 5px 0px rgba(197, 46, 156, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(197, 46, 156, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(197, 46, 156, 0.75);
-  text-transform: capitalize; }
+  color: teal;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  border-style: ridge;
+  border-color: transparent;
+  border-radius: 40%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 128, 128, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 128, 128, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 128, 128, 0.75); }
 
 /* BOTONES DE CONTACTO */
 .contactBtns {
+  text-align: center;
+  color: teal;
+  font-size: 2.7rem;
   font-size: 1.4rem;
   text-transform: uppercase;
-  background-color: blueviolet;
   font-weight: 700;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 10px 10px 5px 0px rgba(138, 43, 226, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(138, 43, 226, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(138, 43, 226, 0.75); }
+  box-shadow: 10px 10px 5px 0px rgba(0, 128, 128, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 128, 128, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 128, 128, 0.75); }
 
 .contactBtns:hover {
-  transform: rotate(15deg);
-  box-shadow: 10px 10px 5px 0px rgba(130, 0, 255, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(130, 0, 255, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(130, 0, 255, 0.75); }
+  transform: rotate(10deg);
+  color: black; }
 
 /* FONDO EN FORMULARIO DE CONTACTO */
 .bgContact {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); }
+  background: #f2f5f2;
+  background: linear-gradient(315deg, #f2f5f2 17%, #c7c8c7 33%, #424646 46%, #fcfcfb 64%); }
 
 /* BORDE DEL FORM */
 .form {
   border-style: ridge;
   border-color: transparent;
   border-radius: 2rem; }
-
-/* ESTILO DEL TITULO */
-h1 {
-  font-family: "Gluten","Cursive";
-  font-weight: 900;
-  font-size: calc(1em + 3vw);
-  line-height: 1em; }
-
-/* SUBTITULO EN GALERIA */
-.galerySub {
-  text-align: center;
-  color: teal;
-  font-size: 2.7rem;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
-  text-transform: uppercase; }
-
-/* SUBTITULOS EN DISCOGRAFIA */
-.albumsEstudio {
-  text-align: center;
-  color: teal;
-  font-size: 2.7rem;
-  padding-top: 2rem;
-  padding-bottom: 7rem; }
-
-/* ESTILO DEL LOGO EN EL MENÚ */
-.logo {
-  width: 40%; }
-
-/* H3 EN EL INICIO  */
-.bandHistory {
-  text-align: center;
-  color: teal;
-  font-size: 2.7rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
-
-/* SUBTITULO QUE NO ESTA DENTRO DEL ACORDION PERO LE REPRESENTA */
-.proxShows {
-  text-align: center;
-  color: teal;
-  font-size: 2.7rem;
-  padding-top: 2rem;
-  padding-bottom: 3rem; }
+  .form label {
+    font-size: 1.2rem;
+    color: teal; }
